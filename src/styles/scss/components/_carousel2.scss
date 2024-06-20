@@ -1,0 +1,62 @@
+//_____CAROUSEL2_____//
+
+.carousel-image {
+    width: 100%;
+}
+
+h3 {
+    padding-bottom: 25px;
+}
+
+.Carousel2 {
+    padding-bottom: 30%;
+}
+
+//size of dots
+.alice-carousel__dots-item:not(.__custom) {
+    width: 12px;
+    height: 12px;
+}
+
+//space between dots
+.alice-carousel__dots-item:not(.__custom):not(:last-child) {
+    margin-right: 10px;
+}
+
+//dot normal
+.alice-carousel__dots-item {
+    opacity: 0.5;
+}
+
+//dot active
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+    background-color: white;
+    opacity: 1;
+}
+
+//arrow
+.alice-carousel__next-btn-item, .alice-carousel__prev-btn-item{
+    color: white;
+    &:hover{
+        color: grey;
+    }
+}
+
+//______RESPONSIVE CAROUSEL2_____//
+
+@media screen and (min-width: 996px) {
+    .alice-carousel__stage-item {
+        padding-right: 5%;
+    }
+    //size of dots
+    .alice-carousel__dots-item:not(.__custom) {
+        width: 15px;
+        height: 15px;
+    }
+
+    //space between dots
+    .alice-carousel__dots-item:not(.__custom):not(:last-child) {
+        margin-right: 18px;
+    }
+}

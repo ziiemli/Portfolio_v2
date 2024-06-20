@@ -1,0 +1,97 @@
+//_____PROJECTS_____//
+
+.projectDev {
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+    &__title {
+        padding-right: 4px;
+    }
+    &__thumbnail {
+        position: relative;
+        margin-top: 16px;
+        &__logo {
+            width: 21.6%;
+            height: auto;
+            position: absolute;
+            z-index: 1;
+            right: 4.4%;
+            bottom: 12px;
+        }
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+        &::after {
+            width: 101%;
+            height: 77px;
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: -1px;
+            background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, #1e1e1e 92.5%);
+        }
+    }
+}
+
+//_____PROJECTS RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .projectDev {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 50%;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.05);
+            transition: 0.5s;
+        }
+        &__thumbnail {
+            margin-top: 0;
+            &__logo{
+                width: 50%;
+                left: 5%;
+                top: 13%;
+            }
+            &__img {
+                height: 50vh;
+            }
+            &:after{
+                width: 101%;
+            }
+        }
+        a {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &__title {
+            align-self: flex-end;
+            padding-top: 5%;
+        }
+    }
+    #TeKiToa {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    #Kasa {
+        grid-column-start: 7;
+        grid-row-start: 1;
+    }
+    #Kanap {
+        grid-column-start: 11;
+        grid-row-start: 1;
+    }
+    #La_Panthere {
+        grid-column-start: 15;
+        grid-row-start: 1;
+    }
+    #OhMyFood {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+    #Booki {
+        grid-column-start: 7;
+        grid-row-start: 2;
+    }
+    
+}

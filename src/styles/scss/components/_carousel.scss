@@ -1,0 +1,119 @@
+//_____CAROUSEL_____//
+.carousel {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 40%;
+    &__slide {
+        width: 100%;
+        height: auto;
+        transition: 0.5s;
+    }
+    &__leftArrow {
+        position: absolute;
+        left: -9%;
+        top: 45%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    &__rightArrow {
+        position: absolute;
+        right: -9%;
+        top: 45%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    &__description {
+        width: 70%;
+        position: absolute;
+        left: 15%;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 10;
+        transition: 0.5s;
+        &.show {
+            opacity: 1;
+        }
+        h2 {
+            padding-bottom: 10%;
+        }
+        h3 {
+            padding-top: 15%;
+            padding-bottom: 5%;
+        }
+    }
+}
+.descriptionConcepts {
+    top: 25%;
+}
+.descriptionPortraits {
+    top: 35%;
+}
+
+//hover
+.slide_active:hover {
+    .carousel__slide {
+        filter: grayscale(50%) brightness(0.1);
+        transition: 0.5s;
+    }
+}
+
+//dots
+
+.slick-dots li button::before {
+    color: white;
+    font-size: 1rem;
+    top: 80%;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+//_____RESPONSIVE  CAROUSEL_____//
+
+//mobile dots sie for traditionalPyrography
+@media screen and (max-width: 996px) {
+    #traditionalPyrography {
+        .slick-dots li {
+            width: 9px;
+            height: 9px;
+        }
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .carousel {
+        left: -4%;
+        padding-bottom: 60%;
+        &__leftArrow {
+            left: -7%;
+        }
+        &__rightArrow {
+            right: -7%;
+        }
+    }
+    .descriptionConcepts {
+        top: 23%;
+    }
+    .descriptionPortraits {
+        left: 30%;
+        top: 25%;
+    }
+    .carousel__description {
+        h2 {
+            padding-bottom: 8%;
+        }
+        h3 {
+            padding-top: 15%;
+            padding-bottom: 5%;
+        }
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .carousel__description {
+        top: 25%;
+    }
+}

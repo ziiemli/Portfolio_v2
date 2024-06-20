@@ -1,0 +1,31 @@
+//_____ALIENZONE 3D_____//
+
+.threeD{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2%;
+    img{
+        width: 100%;
+        padding-bottom: 2%;
+    }
+}
+
+//_____RESPONSIVE ALIENZONE 3D_____//
+
+@media screen and (min-width: 768px) {
+    .threeD{
+        img{
+            width: 49%;
+            padding-bottom: 2%;
+        }
+    }
+}
+@media screen and (min-width: 996px) {
+    .threeD{
+        img{
+            width: 32%;
+            padding-bottom: 3%;
+        }
+    }
+}

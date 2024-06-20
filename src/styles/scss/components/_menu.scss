@@ -1,0 +1,115 @@
+//_____MENU_____//
+
+.menu__active {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -50px;
+    background: rgba(39, 39, 39, 0.71);
+    backdrop-filter: blur(30px);
+    z-index: 1;
+    overflow-y: hidden;
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 12rem;
+        padding-bottom: 266px;
+        a {
+            position: relative;
+            display: flex;
+        }
+        p {
+            transition: 0.5s;
+        }
+        &__diamond {
+            width: 16px;
+            height: auto;
+            align-self: center;
+            position: absolute;
+            left: 30%;
+        }
+        &__shop {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7rem;
+        }
+        &__page {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 67px;
+        }
+    }
+}
+
+.diamondOpacity {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.heightHomeCategories {
+    height: 110%;
+}
+
+.bodyOverflow {
+    overflow: hidden;
+}
+
+//HOVER
+.menu__active__nav__page, .menu__active__nav__shop {
+    p:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+        ~ .diamondOpacity {
+            opacity: 1;
+            transition: 0.5s;
+        }
+    }
+}
+//_____HOME RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .menu__active {
+        margin-top: -75px;
+        &__nav {
+            padding-top: 20rem;
+            &__shop{
+                margin-bottom: 10rem;
+            }
+            &__page{
+                margin-bottom: 90px;
+            }
+            &__diamond {
+                width: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu__active__nav__diamond {
+        left: 25%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .menu__active__nav{
+        padding-top: 140px;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .menu__active {
+        height: 105vh;
+        &__nav {
+            padding-top: 18%;
+            &__shop {
+                margin-bottom: 8%;
+            }
+        }
+    }
+}

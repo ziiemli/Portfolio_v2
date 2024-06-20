@@ -1,0 +1,44 @@
+@import 'abstract/reset';
+
+@import 'library/fonts';
+@import 'library/fonts_responsive';
+@import 'library/colors';
+
+@import 'components/menu';
+@import 'components/header';
+@import 'components/categoriesTitle';
+@import 'components/projects';
+@import 'components/projectDev';
+@import 'components/projectOther';
+@import 'components/digitalArtwork';
+@import 'components/carousel';
+@import 'components/carouselbis';
+@import 'components/carousel2';
+@import 'components/carouselDev';
+@import 'components/redirectTopPage';
+@import 'components/projectTop';
+@import 'components/topOtherProject';
+@import 'components/projectDevContent';
+@import 'components/projectOtherContent';
+@import 'components/galleryPhotos';
+@import 'components/alienzone3d';
+@import 'components/footer';
+@import 'components/projectsNext';
+
+@import 'pages/start';
+@import 'pages/home';
+@import 'pages/webDevDesign';
+@import 'pages/projectDevDesign';
+@import 'pages/about';
+@import 'pages/legalNotice';
+@import 'pages/error';
+
+img {
+    object-fit: cover;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

@@ -1,0 +1,361 @@
+//___FONTS___//
+
+//VARIABLES
+:root {
+    --start_h1: 3rem;
+    --start_h2: 1.25rem;
+    --start_text: 1.25rem;
+    --start_start: 2.5rem;
+
+    --home_title: 1.5rem;
+
+    --category_title: 1.9rem;
+    --category_title_lineHeight: 2.2rem;
+    --category_title_paragraphe: 0.9rem;
+    --category_title_paragraphe_lineHeight: 1.25rem;
+    --category_projects_projects: 1.7rem;
+
+    --carouselDev_title: 3rem;
+    --carouselDev_back: 1rem;
+
+    --projectTop: 1rem;
+    --projectTop__link: 1.2rem;
+    --projectTop__descriptionLineHeight: 1.2rem;
+
+    --topOtherProject_h1: 2.2rem;
+
+    --projectDev_h3: 1rem;
+    --projectDevContent_h3: 1rem;
+
+    --menu: 1.8rem;
+
+    --digitalArtwork_title: 1.2rem;
+    --digitalArtwork_title_desktop: 1rem;
+    --digitalArtwork_h3: 1.1rem;
+    --digitalArtwork_p: 1rem;
+
+    --about_h1: 2.5rem;
+    --about_h2_h3: 1.25rem;
+    --about_description_p: 0.9rem;
+    --about_h4: 1.4rem;
+    --about_skills_li: 0.9rem;
+    --about_career_h5: 1.4rem;
+    --about_career_years: 1.1rem;
+    --about_career_p: 1rem;
+    --about_stacks_softwares: 1.2rem;
+    --about_stacks_softwares_figcaption: 0.9rem;
+
+    --footer: 1.1rem;
+
+    --mentions_h1: 2rem;
+    --mentions_h2: 1.2rem;
+    --mentions_p: 1rem;
+}
+
+@font-face {
+    font-family: "SegoeUi";
+    src: url(../fonts/SegoeUIVariable.woff);
+    src: url(../fonts/SegoeUIVariable.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cyrene";
+    src: url(../fonts/Cyrene.woff);
+    src: url(../fonts/Cyrene.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway.woff);
+    src: url(../fonts/Raleway.woff2);
+    font-display: swap;
+}
+
+//BODY
+body {
+    color: white;
+    font-family: "SegoeUi", sans-serif;
+}
+
+a:visited {
+    color: white;
+}
+
+//HEADER MENU
+.menu__active__nav__page,
+.menu__active__nav__shop {
+    font-family: "SegoeUi", sans-serif;
+    font-size: var(--menu);
+    font-weight: 100;
+    color: white;
+    // text-align: center;
+}
+
+//START
+.start__content {
+    &__h1 {
+        font-size: var(--start_h1);
+        font-weight: lighter;
+    }
+    &__h2 {
+        font-size: var(--start_h2);
+        font-weight: 500;
+    }
+    li {
+        font-size: var(--start_text);
+        font-weight: lighter;
+    }
+}
+
+.start__button {
+    &__start {
+        font-family: "Cyrene", sans-serif;
+        font-size: var(--start_start);
+        font-weight: 400;
+        color: white;
+    }
+}
+
+//HOME
+.homeCategories__article__title {
+    font-size: var(--home_title);
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav {
+    color: white;
+}
+
+//CATEGORIES TITLE
+.categoriesTitle__informations {
+    &__title {
+        font-family: "Raleway", sans-serif;
+        font-size: var(--category_title);
+        font-weight: 600;
+        line-height: var(--category_title_lineHeight);
+    }
+    &__paragraphe {
+        font-size: var(--category_title_paragraphe);
+        font-weight: lighter;
+        line-height: var(--category_title_paragraphe_lineHeight);
+    }
+}
+
+//PROJECTS
+.projects__title {
+    // font-family: "SegoeUi", sans-serif;
+    font-size: var(--category_projects_projects);
+    font-weight: 400;
+}
+
+//PROJECT TOP DEV
+.projectTop {
+    // font-size: var(--projectTop);
+    &__infos__description {
+        line-height: var(--projectTop__descriptionLineHeight);
+        font-weight: lighter;
+    }
+    &__infos__link {
+        font-size: var(--projectTop__link);
+        color: white;
+    }
+    h2 {
+        font-size: var(--projectTop__link);
+    }
+    p {
+        font-size: var(--carouselDev_back);
+    }
+}
+
+//TOP OTHER PROJECT
+.topOtherProject {
+    h1 {
+        font-family: "Raleway", sans-serif;
+        font-size: var(--topOtherProject_h1);
+        font-weight: 5 00;
+    }
+    &__infos__description {
+        line-height: var(--projectTop__descriptionLineHeight);
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: var(--projectTop__link);
+    }
+}
+
+//OTHERS
+.screenOtherProject h3,
+.Carousel2 h3,
+.Carouselbis_OthersContent h3 {
+    font-weight: lighter;
+}
+
+//WEB DEV DESIGN PROJECTS / OTHERS
+.projectDev__title,
+.projectOther__title {
+    font-family: "Raleway", sans-serif;
+    font-size: var(--projectDev_h3);
+    font-weight: 400;
+    color: white;
+}
+
+//CAROUSEL DEV
+.carouselDev__title {
+    font-family: "Raleway", sans-serif;
+    font-size: var(--carouselDev_title);
+    font-weight: 400;
+}
+.carouselDev__back p {
+    font-size: var(--carouselDev_back);
+    font-weight: lighter;
+}
+
+//PROJECT DEV CONTENT
+.projectDevContent h3 {
+    font-size: var(--projectDevContent_h3);
+    font-weight: lighter;
+}
+
+//DIGITAL ARTWORK
+.digitalArtwork {
+    &__title {
+        font-size: var(--digitalArtwork_title);
+    }
+    &__title__desktop {
+        font-size: var(--digitalArtwork_title_desktop);
+        font-weight: lighter;
+    }
+    h3 {
+        font-size: var(--digitalArtwork_h3);
+    }
+    p {
+        font-size: var(--digitalArtwork_p);
+    }
+}
+
+.carousel__description {
+    h2 {
+        font-size: var(--digitalArtwork_title);
+    }
+    h3 {
+        font-size: var(--digitalArtwork_h3);
+    }
+    p {
+        font-size: var(--digitalArtwork_p);
+    }
+}
+
+//ABOUT
+.about {
+    &__informations {
+        h1 {
+            font-size: var(--about_h1);
+            font-weight: 300;
+        }
+        h2 {
+            font-size: var(--about_h2_h3);
+            font-weight: 400;
+        }
+        h3 {
+            font-size: var(--about_h2_h3);
+            font-weight: 400;
+        }
+        p {
+            font-size: var(--about_description_p);
+            line-height: 1.25rem;
+        }
+    }
+    &__skills {
+        h4 {
+            font-size: var(--about_h4);
+            font-weight: 400;
+        }
+        li {
+            font-size: var(--about_skills_li);
+            font-weight: 400;
+        }
+    }
+    &__career {
+        h4 {
+            font-size: var(--about_h4);
+            font-weight: 400;
+        }
+        &__training {
+            h5 {
+                font-family: "Raleway", sans-serif;
+                font-size: var(--about_career_h5);
+            }
+            &__years {
+                font-size: var(--about_career_years);
+                font-weight: 300;
+            }
+            &__p {
+                font-size: var(--about_career_p);
+                line-height: 1.25rem;
+            }
+        }
+    }
+    &__dev {
+        h4 {
+            font-size: var(--about_h4);
+            font-weight: 400;
+        }
+        &__skills {
+            list-style-position: inside;
+            list-style-type: disc;
+        }
+        h5 {
+            font-family: "Raleway", sans-serif;
+            font-size: var(--about_stacks_softwares);
+            font-weight: 500;
+        }
+        figcaption {
+            font-size: var(--about_stacks_softwares_figcaption);
+            font-weight: 300;
+        }
+    }
+    &__art {
+        h4 {
+            font-size: var(--about_h4);
+            font-weight: 400;
+        }
+        &__skills {
+            list-style-position: inside;
+            list-style-type: disc;
+        }
+        h5 {
+            font-family: "Raleway", sans-serif;
+            font-size: var(--about_stacks_softwares);
+            font-weight: 500;
+        }
+        figcaption {
+            font-size: var(--about_stacks_softwares_figcaption);
+            font-weight: 300;
+        }
+    }
+}
+
+//FOOTER
+footer {
+    color: white;
+    font-size: var(--footer);
+    a {
+        color: white;
+    }
+}
+
+//LEGAL NOTICE
+.legalNotice {
+    h1 {
+        font-size: var(--mentions_h1);
+    }
+    h2 {
+        font-size: var(--mentions_h2);
+    }
+    p {
+        font-size: var(--mentions_p);
+    }
+}

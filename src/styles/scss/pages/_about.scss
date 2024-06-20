@@ -1,0 +1,601 @@
+//_____ABOUT_____//
+
+.about {
+    height: 100%;
+    background-color: $background-color;
+    padding-left: 6.4%;
+    padding-right: 6.4%;
+    padding-bottom: 30px;
+    position: relative;
+    //informations
+    &__informations {
+        padding-top: 370px;
+        &__img {
+            width: 100%;
+            height: 313px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        h1 {
+            padding-bottom: 25px;
+        }
+        h2 {
+            padding-bottom: 12px;
+        }
+        h3 {
+            padding-bottom: 54px;
+        }
+        p {
+            padding-bottom: 124px;
+        }
+        &__socialMedia {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-bottom: 44px;
+            transition: 0.5s;
+            img {
+                height: 100%;
+                transition: 0.5s;
+            }
+            a :hover {
+                transition: 0.5s;
+                transform: scale(1.2);
+            }
+        }
+        &__line {
+            height: 1px;
+            margin-bottom: 80px;
+            background-color: white;
+        }
+    }
+    //skills
+    &__skills {
+        h4 {
+            padding-bottom: 12px;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 100px;
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 33px;
+                background-color: #5e5454;
+            }
+        }
+        &__languages {
+            li {
+                width: 31.5%;
+                z-index: 1;
+            }
+        }
+        &__fields {
+            gap: 3%;
+            &__art {
+                width: 32.5%;
+            }
+            &__dev {
+                width: 66%;
+            }
+        }
+        &__line {
+            height: 1px;
+            background-color: white;
+            margin-bottom: 30px;
+        }
+    }
+    //career
+    &__career {
+        h4 {
+            padding-bottom: 57px;
+        }
+        &__training {
+            padding-bottom: 60px;
+            h5 {
+                padding-bottom: 16px;
+            }
+            &__years {
+                padding-bottom: 45px;
+            }
+            &__p__03_01 {
+                &__0 {
+                    padding-bottom: 26px;
+                }
+                &__1 {
+                    padding-bottom: 7px;
+                }
+            }
+            &__p__03_02 {
+                &__0 {
+                    padding-bottom: 26px;
+                }
+            }
+            &__p__03_03 {
+                &__0 {
+                    padding-bottom: 26px;
+                }
+            }
+        }
+        &__line {
+            width: 100%;
+            height: 1px;
+            margin-top: 74px;
+            margin-bottom: 30px;
+            background-color: white;
+        }
+    }
+    //dev
+    &__dev {
+        h4 {
+            padding-bottom: 65px;
+        }
+        &__skills {
+            padding-bottom: 70px;
+            &__1 {
+                padding-bottom: 25px;
+            }
+            &__0,
+            &__2,
+            &__3,
+            &__4,
+            &__5,
+            &__6 {
+                padding-bottom: 8px;
+            }
+        }
+        h5 {
+            padding-bottom: 30px;
+        }
+        &__stacks {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 90px;
+            figure {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                figcaption {
+                    padding-top: 20px;
+                }
+            }
+            img {
+                height: 45px;
+            }
+        }
+        &__line {
+            width: 100%;
+            height: 1px;
+            margin-bottom: 30px;
+            background-color: white;
+        }
+    }
+    //art
+    &__art {
+        h4 {
+            padding-bottom: 65px;
+        }
+        &__skills {
+            padding-bottom: 70px;
+            &__3 {
+                padding-bottom: 25px;
+            }
+            &__0,
+            &__1,
+            &__2,
+            &__4,
+            &__5,
+            &__6 {
+                padding-bottom: 8px;
+            }
+        }
+        h5 {
+            padding-bottom: 30px;
+        }
+        &__softwares {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 90px;
+            figure {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                figcaption {
+                    padding-top: 20px;
+                }
+            }
+            img {
+                height: 45px;
+            }
+        }
+        &__line {
+            width: 100%;
+            height: 1px;
+            margin-top: 30px;
+            background: white;
+        }
+    }
+}
+
+//_____ABOUT RESPONSIVE_____//
+@media screen and (min-width: 996px) {
+    .about {
+        height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+        &__informations {
+            position: relative;
+            padding-left: 52%;
+            padding-top: 6%;
+            &__background {
+                width: 100vw;
+                height: 40%;
+                position: fixed;
+                left: 50.1%;
+                top: 0;
+                background-color: #070707;
+                z-index: 10;
+            }
+            &__img {
+                height: 100vh;
+                position: fixed;
+                // bottom: ;
+                // left: 10%;
+                // padding-left: 18%;
+            }
+            h1 {
+                position: fixed;
+                z-index: 11;
+                top: 20%;
+            }
+            h2 {
+                position: fixed;
+                z-index: 11;
+                top: 27%;
+            }
+            h3 {
+                position: fixed;
+                z-index: 11;
+                top: 30%;
+            }
+            p {
+                position: relative;
+                z-index: 2;
+                padding-left: 40%;
+                padding-right: 12%;
+                padding-top: 58%;
+                padding-bottom: 40px;
+            }
+            &__socialMedia {
+                position: relative;
+                z-index: 2;
+                padding-left: 40%;
+                padding-right: 18%;
+            }
+            &__line {
+                display: none;
+            }
+        }
+        &__skills {
+            width: 14%;
+            position: absolute;
+            z-index: 2;
+            left: 52%;
+            top: 0;
+            padding-top: 34%;
+            &__fields {
+                flex-wrap: wrap;
+                ul {
+                    li {
+                        justify-content: start;
+                        padding-left: 10%;
+                    }
+                }
+                &__art {
+                    width: auto;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    margin-bottom: 10px;
+                }
+                &__dev {
+                    width: auto;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    margin-bottom: 10px;
+                }
+            }
+            ul {
+                padding-bottom: 27%;
+            }
+            &__line {
+                display: none;
+            }
+        }
+        &__career {
+            padding-left: 52%;
+            margin-top: 20%;
+            padding-right: 4%;
+            position: relative;
+            z-index: 2;
+            &__trainings {
+                display: flex;
+                gap: 3%;
+            }
+            &__training {
+                width: 30%;
+                position: relative;
+                h5,
+                p {
+                    padding-right: 7%;
+                }
+                &__separate {
+                    width: 1px;
+                    height: 230px;
+                    position: absolute;
+                    top: 55px;
+                    right: 0;
+                    background-color: white;
+                }
+            }
+            &__line {
+                display: none;
+            }
+        }
+        &__dev {
+            display: flex;
+            position: relative;
+            z-index: 2;
+            padding-left: 52%;
+            padding-top: 20%;
+            &__separate {
+                width: 1px;
+                height: 30%;
+                position: absolute;
+                top: 55%;
+                bottom: 0;
+                left: 68%;
+                background-color: white;
+            }
+            &__softs {
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 1%;
+            }
+            &__line {
+                display: none;
+            }
+            &__h5__stacks {
+                width: 50%;
+                padding-top: 35%;
+            }
+            &__stacks {
+                width: 100%;
+                gap: 0.5%;
+            }
+        }
+        &__art {
+            display: flex;
+            position: relative;
+            z-index: 2;
+            padding-left: 52%;
+            padding-top: 20%;
+            padding-bottom: 10%;
+            &__div {
+                width: fit-content;
+                
+            }
+            &__separate {
+                width: 1px;
+                height: 30%;
+                position: absolute;
+                top: 45%;
+                bottom: 0;
+                left: 68%;
+                background-color: white;
+            }
+            &__softs {
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 2%;
+            }
+            &__line {
+                display: none;
+            }
+            &__skills {
+                width: 16vw;
+            }
+            &__h5__softwares {
+                width: 50%;
+                padding-top: 35%;
+            }
+            &__softwares {
+                width: 96%;
+                gap: 0.5%;
+            }
+        }
+    }
+    .linesAbout {
+        top: 0;
+        position: fixed;
+        padding-left: 17.8%;
+        padding-right: 17.8%;
+        z-index: 1;
+        opacity: 0.2;
+    }
+    .lineAbout {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .linesAbout {
+        display: none;
+    }
+    .about__career__training__separate {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .about {
+        &__dev {
+            &__softs {
+                padding-left: 6%;
+            }
+        }
+        &__art {
+            &__softs {
+                padding-left: 5%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about {
+        &__dev {
+            &__softs {
+                padding-left: 10%;
+            }
+        }
+        &__art {
+            &__softs {
+                padding-left: 7%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 42%;
+            }
+        }
+        &__skills {
+            padding-top: 26%;
+        }
+        &__dev {
+            &__softs {
+                padding-left: 12%;
+            }
+            &__stacks {
+                gap: 4%;
+            }
+        }
+        &__art {
+            &__softs {
+                padding-left: 6%;
+            }
+            &__stacks {
+                width: 100%;
+                gap: 4%;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1400px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 41%;
+            }
+        }
+        &__skills {
+            padding-top: 25%;
+        }
+        &__dev {
+            &__softs {
+                padding-left: 15%;
+            }
+        }
+        &__art {
+            &__softs {
+                padding-left: 7%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 35%;
+            }
+        }
+        &__skills {
+            padding-top: 22%;
+        }
+        &__dev {
+            &__softs {
+                padding-left: 18%;
+            }
+        }
+        &__art {
+            &__softs {
+                padding-left: 7%;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1800px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 28%;
+            }
+        }
+        &__skills {
+            padding-top: 20%;
+        }
+        &__dev {
+            &__softs {
+                padding-left: 24%;
+            }
+        }
+        &__art {
+            &__softs {
+                padding-left: 10%;
+            }
+        }
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 47%;
+            }
+        }
+        &__skills {
+            padding-top: 29%;
+        }
+        &__dev {
+            padding-right: 4.5%;
+        }
+        &__art {
+            padding-right: 2%;
+            position: relative;
+            overflow: hidden;
+            &__h5__softwares {
+                padding-top: 6%;
+                padding-left: 11%;
+            }
+            &__softwares {
+                padding-right: 0;
+                padding-left: -10%;
+                width: 70%;
+            }
+        }
+    }
+}

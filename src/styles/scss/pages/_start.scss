@@ -1,0 +1,164 @@
+//___START___//
+
+.start {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $background_color;
+    position: relative;
+    overflow: hidden;
+    //logo
+    &__logo {
+        width: 55px;
+        height: 55px;        
+        position: absolute;
+        z-index: 1;
+        left: 25px;
+        top: 50px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    //content
+    &__content {
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        padding-right: 29px;
+        top: 18%;
+        z-index: 1;
+        //ziiemli
+        &__h1 {
+            margin-bottom: 20px;
+            img{
+                width: auto;
+                height: 65px;
+            }
+        }
+        //Zilin Moulin
+        &__h2 {
+            margin-bottom: 250px;
+        }
+        //work
+        li {
+            margin-bottom: 12px;
+        }
+    }
+    //button START
+    &__button {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        position: absolute;
+        z-index: 1;
+        bottom: 10%;
+        a {
+            transition: 0.3s;
+        }
+        &__line {
+            width: 100px;
+            height: 2px;
+            background-color: white;
+        }
+    }
+    //background
+    &__background {
+        height: 100%;
+        display: flex;
+        align-self: end;
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 70% 0;
+        }
+    }
+}
+
+//_____START RESPONSIVE_____//
+
+// @media screen and (max-width: 340px){
+//     .start {
+//         &__background {
+//             left: 17rem;
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 340px) and (max-width: 420px){
+//     .start {
+//         &__background {
+//             left: 50%;
+//         }
+//     }
+// }
+
+@media screen and (min-width: 996px) {
+    .start {
+        &__logo {
+            width: 90px;
+            height: 20px;
+            left: 6%;
+            top: 7%;
+        }
+        &__background {
+            left: 0;
+            right: 0;
+        }
+        &__line {
+            height: 100vh;
+            width: 2px;
+            background-color: white;
+            position: absolute;
+            opacity: 0.2;
+        }
+        &__line2 {
+            height: 100vh;
+            width: 2px;
+            background-color: white;
+            position: absolute;
+            opacity: 0.2;
+            margin-left: 66%;
+        }
+        &__content {
+            width: 100%;
+            text-align: left;
+            position: absolute;
+            padding-right: 29px;
+            top: 8%;
+            z-index: 1;
+            //ziiemli
+            &__h1 {
+                margin-bottom: 20px;
+                padding-left: 16%;
+                padding-top: 200px;
+                img{
+                    width: auto;
+                    height: 120px;
+                }
+            }
+            //Zilin Moulin
+            &__h2 {
+                margin-bottom: 150px;
+                padding-left: 22%;
+            }
+            //work
+            li {
+                margin-bottom: 12px;
+                margin-right: 50%;
+                text-align: right;
+            }
+        }
+    }
+    //HOVER
+    .start__button a:hover {
+        transform: scale(1.15);
+        transition: 0.3s;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}

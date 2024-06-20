@@ -1,0 +1,71 @@
+//_____FONTS RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    :root {
+        --start_h1: 4rem;
+        --start_h2: 1.8rem;
+        --start_text: 1.7rem;
+        --start_start: 4.5rem;
+
+        --home_title: 1.6rem;
+
+        --category_title: 2.5rem;
+        --category_title_lineHeight: 4rem;
+        --category_title_paragraphe: 1.1rem;
+        --category_title_paragraphe_lineHeight: 1.6rem;
+        --category_projects_projects: 1.7rem;
+
+        --carouselDev_title: 3rem;
+        --carouselDev_back: 1rem;
+
+        --projectTop: 1rem;
+        --projectTop__link: 1.2rem;
+        --projectTop__descriptionLineHeight: 2rem;
+
+        --projectTop: 1.2rem;
+        --projectTop__link: 1.3rem;
+
+        --projectDevContent_h3: 1.2rem;
+        --projectDev_h3: 1.3rem;
+
+        --menu: 3rem;
+
+        --digitalArtwork_title: 1.6rem;
+        --digitalArtwork_title_desktop: 1.4rem;
+        --digitalArtwork_h3: 1.3rem;
+        --digitalArtwork_p: 1.2rem;
+
+        --mentions_h1: 3rem;
+        --mentions_h2: 1.3rem;
+        --mentions_p: 1.2rem;
+    }
+
+    .projectDev__title,
+    .projectOther__title {
+        text-align: end;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    :root {
+        --home_title: 1.4rem;
+
+        --category_title: 2.5rem;
+        --category_title_lineHeight: 2rem;
+        --category_title_paragraphe: 1rem;
+        --category_title_paragraphe_lineHeight: 1.35rem;
+
+        --projectTop: 1rem;
+        --projectTop__link: 1.1rem;
+        --projectTop__descriptionLineHeight: 1.2rem;
+
+        --projectDev_h3: 1rem;
+
+        --menu: 2.5rem;
+
+        --digitalArtwork_title: 1.25rem;
+        --digitalArtwork_title_desktop: 1rem;
+        --digitalArtwork_h3: 1.1rem;
+        --digitalArtwork_p: 1rem;
+    }
+}

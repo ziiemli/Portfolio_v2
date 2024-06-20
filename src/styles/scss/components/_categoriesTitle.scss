@@ -1,0 +1,103 @@
+
+//_____CATEGORIES TITLE_____//
+
+.categoriesTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 17px;
+    img {
+        width: 100%;
+        height: 313px;
+    }
+    //infos
+    &__informations {
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 50px;
+        padding-bottom: 170px;
+        //title of category
+        &__title{
+            height: 104px;
+            padding-right: 10%;
+        }
+        //description 
+        &__paragraphe{
+            height: 120px;
+        }
+    }
+    &__line {
+        width: 82.6%;
+        height: 1px;
+        align-self: center;
+        background-color: white;
+    }
+}
+
+//_____CATEGORIES TITLE RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .categoriesTitle {
+        height: 100vh;
+        flex-direction: row-reverse;
+        position: relative;
+        overflow: hidden;
+        z-index: 10;
+        &::after {
+            width: 100vw;
+            height: 555px;
+            position: absolute;
+            content: '';
+            align-self: flex-end;
+            bottom: 0;
+            background: linear-gradient(rgba(14, 18, 16, 0.14) 0%, #1E1E1E 0.01%, #060706 66.67%);
+            opacity: 0.8;
+        }
+        &__img {
+            z-index: 1;
+            height: 100vh;
+            display: flex;
+            // align-self: flex-start;
+            justify-content: flex-start;
+            align-items: flex-start;
+            img {
+                object-fit: fill;
+                width: 100%;
+                height: 110vh;
+                display: flex;
+                // margin-right: -2%;
+            }
+        }
+        &__informations{
+            width: 31%;
+            padding-left: 2.2%;
+            padding-right: 5.8%;
+            padding-top: 15%;
+            z-index: 1;
+            &__title {
+                width: 100%;
+                height: auto;
+                padding-right: 0;
+                padding-bottom: 42px;
+            }
+        }
+        &__line {
+            width: 2px;
+            height: 100vh;
+            align-self: flex-start;
+            margin-left: 16.4%;
+            z-index: 1;
+        }
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .categoriesTitle {
+        &__informations {
+            padding-top: 230px;
+        }
+        &__line{
+            margin-left: 16.75%;
+        }
+    }
+}

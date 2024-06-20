@@ -1,0 +1,19 @@
+//_____ERROR_____//
+
+.error{
+    height: 100vh;
+    background-color: $background-color;
+    h1{
+        padding-top: 55%;
+        padding-left: 15%;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .error{
+        h1 {
+            padding-top: 22%;
+        }
+    }
+}

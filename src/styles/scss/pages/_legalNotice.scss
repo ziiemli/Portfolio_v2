@@ -1,0 +1,26 @@
+//___LEGAL NOTICE___//
+
+.legalNotice {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 150px;
+    padding-bottom: 35%;
+    background-color: $background-color;
+    h1{
+        padding-bottom: 25px;
+    }
+    h2{
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+}
+
+//___LEGAL NOTICE RESPONSIVE___//
+
+@media screen and (min-width: 996px) {
+    .legalNotice {
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 200px;
+    }
+}

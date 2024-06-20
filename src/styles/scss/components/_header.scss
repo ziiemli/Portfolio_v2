@@ -1,0 +1,89 @@
+//___HEADER___//
+
+header {
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    top: 50px;
+    .HeaderLogo img {
+        height: 32px;
+        width: auto;
+    }
+}
+
+//Menu
+.menu {
+    width: 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 25px;
+    top: 8;
+    z-index: 10;
+    cursor: pointer;
+    &__line {
+        width: 100%;
+        height: 10%;
+        background-color: white;
+    }
+}
+
+//___HEADER RESPONSIVE___//
+
+@media screen and (min-width: 996px) {
+    header {
+        padding-left: 6.1%;
+        padding-right: 6.1%;
+        top: 75px;
+        height: 40px;
+        //logo
+        .HeaderLogo img {
+            width: auto;
+            height: 50px;
+        }
+        //img
+        img {
+            transition: 0.5s;
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .menu {
+        width: 45px;
+        height: 100;
+        top: 28%;
+        right: 6%;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+    }
+
+    .positionFixed {
+        position: fixed;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    header {
+        height: 42px;
+        padding-left: 3%;
+        padding-right: 3%;
+        top: 55px;
+        .menu {
+            width: 28px;
+            height: 22px;
+            right: 48px;
+        }
+    }
+}

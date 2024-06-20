@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "category": "Web Development & Design",
+        "image": "../img/home/Web_Development.jpg",
+        "nav" : "Web_Development_and_Design",
+        "categoryBackground": "../img/webDevDesign/WebDevDesign_TitleBackground.png",
+        "categoryTitle": "Web Development & Web Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+        "id": 2,
+        "category": "Digital Art",
+        "image": "../img/home/Digital_Art.jpg",
+        "nav" : "Digital_Art",
+        "categoryBackground": "../img/webDevDesign/WebDevDesign_TitleBackground.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+        "id": 3,
+        "category": "Traditional Art",
+        "image": "../img/home/Traditional_Art.jpg",
+        "nav" : "Traditional_Art",
+        "categoryBackground": "../img/webDevDesign/WebDevDesign_TitleBackground.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+        "id": 4,
+        "category": "Others",
+        "image": "../img/home/Others.jpg",
+        "nav" : "Others",
+        "categoryBackground": "../img/webDevDesign/WebDevDesign_TitleBackground.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    }
+]

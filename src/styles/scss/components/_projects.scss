@@ -1,0 +1,91 @@
+//_____PROJECTS_____//
+
+.projects,
+.projectsArt, .projectsOther {
+    width: 100%;
+    height: 100%;
+    padding-left: 10.25%;
+    padding-right: 10.25%;
+    &__title {
+        margin-bottom: 46px;
+    }
+}
+
+.backgroundLinesProjects {
+    width: 100%;
+    height: 100vh;
+    grid-column-start: 1;
+    grid-column-end: 18;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.3;
+    &__line {
+        width: 2px;
+        height: 224.5vh;
+        background-color: white;
+    }
+}
+
+//_____PROJECTS RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
+        grid-template-rows: 50% 50%;
+        position: relative;
+        padding-left: 16.4%;
+        padding-right: 16.4%;
+        padding-top: 12%;
+        &__title {
+            display: none;
+        }
+    }
+    .projectsArt, .projectsOther {
+        position: relative;
+        padding-left: 16.4%;
+        padding-right: 16.4%;
+        padding-top: 15%;
+    }
+    .linesDev {
+        position: absolute;
+        height: 100%;
+        bottom: 0;
+    }
+    .linesArt {
+        position: absolute;
+        width: 64.5%;
+        height: 100%;
+        bottom: 0;
+    }
+    .linesOther{
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        bottom: 0;
+    }
+    .backgroundLinesProjects__line{
+        height: 100%;
+    }
+    .lineArt, .lineOther {
+        height: 100%;
+    }
+    .digitalArtworks, .projectsOther {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .backgroundLinesProjects {
+        display: none;
+    }
+}
+
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .projects, .projectsArt, .projectsOther{
+        padding-left: 16.8%;
+        padding-right: 16.8%;
+    }
+}

@@ -1,0 +1,42 @@
+//___REDIRECT TOP PAGE___//
+
+.redirectTopPage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    //logo
+    &__svg {
+        width: 34px;
+        align-self: center;
+        &__arrowTop {
+            width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        &__mail {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+//_____REDIRECT TOP PAGE RESPONSIVE_____//
+
+@media screen and (max-width: 996px) {
+    .redirectTopPage {
+        background-color: $background-color;
+    }
+
+}
+
+@media screen and (min-width: 996px) {
+    .redirectTopPage {
+        position: fixed;
+        top: 88%;
+        right: 10%;
+    }
+
+    .displayNone{
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+//_____PROJECT OTHER CONTENT_____//
+
+.screensOtherContent {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 15%;
+}
+
+.screenOtherProject{
+    width: 100%;
+    padding-bottom: 10%;
+    h3 {
+        padding-bottom: 25px;
+    }
+    &__screens{
+        img{
+            width: 100%;
+            padding-bottom: 8%;
+        }
+    }
+}
+
+.contentAvailable {
+    padding-bottom: 30%;
+    font-size: 2.5rem;
+}
+
+//_____PROJECT OTHER CONTENT RESPONSIVE_____//
+@media screen and (min-width: 996px){
+    .screensOtherContent {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}

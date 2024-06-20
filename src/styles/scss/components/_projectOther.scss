@@ -1,0 +1,75 @@
+//_____PROJECTS_____//
+
+.projectOther {
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+    &__thumbnail {
+        position: relative;
+        margin-top: 16px;
+        &__logo {
+            width: 21.6%;
+            height: auto;
+            position: absolute;
+            z-index: 1;
+            right: 4.4%;
+            bottom: 12px;
+        }
+        &__img {
+            width: 100%;
+        }
+        &::after {
+            width: 101%;
+            height: 77px;
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: -1px;
+            background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, #1e1e1e 92.5%);
+        }
+    }
+}
+
+//_____PROJECTS RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .projectOther {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom: 30%;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.05);
+            transition: 0.5s;
+        }
+        &__thumbnail {
+            margin-top: 0;
+            &__logo{
+                width: 50%;
+                left: 5%;
+                top: 13%;
+            }
+            &__img {
+                height: 50vh;
+            }
+            &:after{
+                width: 101%;
+            }
+        }
+        a {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &__title {
+            align-self: flex-end;
+            padding-top: 5%;
+        }
+        
+    }
+    
+}

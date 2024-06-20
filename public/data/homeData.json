@@ -1,0 +1,1438 @@
+{
+    "menu": ["Shop", "Home", "About", "Contact"],
+    "home": [
+        {
+            "id": 1,
+            "category": "Design & Development",
+            "image": "/assets/img/home/Web_Development.jpg",
+            "imageMobile": "/assets/img/home/Web_Development_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Web_Development_Desktop.webp",
+            "nav": "Design_and_Development",
+            "categoryBackground": "/assets/img/devDesign/WebDevDesign_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/devDesign/WebDevDesign_TitleBackground_Desktop.png",
+            "categoryTitle": "Web Development & Web Design",
+            "description": "I develop websites and create webdesign models. Animated by visuals, I use my experience in UI & UX in my realizations. I master: HTML, CSS, SCSS, JavaScript and React."
+        },
+        {
+            "id": 2,
+            "category": "Digital Art",
+            "image": "/assets/img/home/Digital_Art.jpg",
+            "imageMobile": "/assets/img/home/Digital_Art_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Digital_Art_Desktop.webp",
+            "nav": "Digital_Art",
+            "categoryBackground": "/assets/img/digitalArt/DigitalArt_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/digitalArt/DigitalArt_TitleBackground_Desktop.png",
+            "description": "I create digital illustrations and concept art. Most of the time I create environments, but also like to imagine characters."
+        },
+        {
+            "id": 3,
+            "category": "Traditional Art",
+            "image": "/assets/img/home/Traditional_Art.jpg",
+            "imageMobile": "/assets/img/home/Traditional_Art_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Traditional_Art_Desktop.webp",
+            "nav": "Traditional_Art",
+            "categoryBackground": "/assets/img/traditionalArt/TraditionalArt_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/traditionalArt/TraditionalArt_TitleBackground_Desktop.png",
+            "description": "I love experiment and explore different mediums. I practice paiting (oil, watercolor, acrylic), pencil, pyrography etc..."
+        },
+        {
+            "id": 4,
+            "category": "Others",
+            "image": "/assets/img/home/Others.jpg",
+            "imageMobile": "/assets/img/home/Others_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Others_Desktop.webp",
+            "nav": "Others",
+            "categoryBackground": "/assets/img/others/Others_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/others/Others_TitleBackground_Desktop.png",
+            "description": "Various projects that I have been able to realize. Graphic design, UI&UX, video games, board games, photography, object design, etc. "
+        }
+    ],
+    "dev": [
+        {
+            "id": "01_00",
+            "nameProject": "TeKiToa",
+            "imageDesktop": "/assets/img/devDesign/TeKiToa/TeKiToa_Desktop.webp",
+            "imageMobile": "/assets/img/devDesign/TeKiToa/TeKiToa_Mobile.webp",
+            "logo": "/assets/img/devDesign/TeKiToa/TeKiToa_Logo.svg",
+            "description": "TeKiToa is a show to discover new streamers created by MaucSama. The website of the show being already existing, the mission was to rework the accessibility of the website and the user experience. Creation of Figma models and prototypes.",
+            "link": "https://www.tekitoa.fr/home",
+            "date": "April, 2023",
+            "techs": "Figma",
+            "roles": "UI/UX Designer, Webdesigner",
+            "thumbnail": "/assets/img/devDesign/TeKiToa/TeKiToa_Thumbnail.webp",
+            "thumbnailBackground": "/assets/img/devDesign/TeKiToa/TeKiToa_ThumbnailBackground.webp"
+        },
+        {
+            "id": "01_01",
+            "nameProject": "Kasa",
+            "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.webp",
+            "imageMobile": "/assets/img/devDesign/Kasa/Kasa_Mobile.webp",
+            "logo": "/assets/img/devDesign/Kasa/Kasa_Logo.svg",
+            "description": "Kasa is a school project. Integrate the model in React including dropdowns and image sliders.",
+            "link": "https://github.com/ziiemli/Kasa",
+            "date": "November, 2022",
+            "techs": "JavaScript, React, Scss",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.webp",
+            "thumbnailBackground": "/assets/img/devDesign/Kasa/Kasa_ThumbnailBackground.webp"
+        },
+        {
+            "id": "01_02",
+            "nameProject": "Kanap",
+            "imageDesktop": "/assets/img/devDesign/Kanap/Kanap_Desktop.webp",
+            "imageMobile": "/assets/img/devDesign/Kanap/Kanap_Mobile.webp",
+            "logo": "/assets/img/devDesign/Kanap/Kanap_Logo.svg",
+            "description": "Kanap is a school project. Project in Javascript which consisted in making the front part. Display of the different products, their product page, management of the cart and the form.",
+            "link": "https://github.com/ziiemli/Kanap",
+            "date": "October, 2022",
+            "techs": "JavaScript",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/Kanap/Kanap_Thumbnail.webp",
+            "thumbnailBackground": "/assets/img/devDesign/Kanap/Kanap_ThumbnailBackground.webp"
+        },
+        {
+            "id": "01_03",
+            "nameProject": "La Panthère",
+            "imageDesktop": "/assets/img/devDesign/LaPanthere/LaPanthere_Desktop.webp",
+            "imageMobile": "/assets/img/devDesign/LaPanthere/LaPanthere_Mobile.webp",
+            "logo": "/assets/img/devDesign/LaPanthere/LaPanthere_Logo.svg",
+            "description": "La Panthère is a school project. The work consisted in correcting the website and improving the SEO.",
+            "link": "https://github.com/ziiemli/La_Panthere",
+            "date": "October, 2022",
+            "techs": "HTML, CSS",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/LaPanthere/LaPanthere_Thumbnail.webp",
+            "thumbnailBackground": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.webp"
+        },
+        {
+            "id": "01_04",
+            "nameProject": "OhMyFood",
+            "imageDesktop": "/assets/img/devDesign/OhMyFood/OhMyFood_Desktop.webp",
+            "imageMobile": "/assets/img/devDesign/OhMyFood/OhMyFood_Mobile.webp",
+            "logo": "/assets/img/devDesign/OhMyFood/OhMyFood_Logo.svg",
+            "description": "OhMyFood is a school project. I had to realize the integration of the model in HTML with CSS animations.",
+            "link": "https://github.com/ziiemli/Oh_my_food",
+            "date": "September, 2022",
+            "techs": "HTML, Scss",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/OhMyFood/OhMyFood_Thumbnail.webp",
+            "thumbnailBackground": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.webp"
+        },
+        {
+            "id": "01_05",
+            "nameProject": "Booki",
+            "imageDesktop": "/assets/img/devDesign/Booki/Booki_Desktop.webp",
+            "imageMobile": "/assets/img/devDesign/Booki/Booki_Mobile.webp",
+            "logo": "/assets/img/devDesign/Booki/Booki_Logo.svg",
+            "description": "Booki is a school project. I had to realize the integration of the model in HTML and CSS.",
+            "link": "https://github.com/ziiemli/Booki",
+            "date": "August, 2022",
+            "techs": "HTML, CSS",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/Booki/Booki_Thumbnail.webp",
+            "thumbnailBackground": "/assets/img/devDesign/Booki/Booki_ThumbnailBackground.webp"
+        }
+    ],
+    "devProject": [
+        {
+            "nameProject": "TeKiToa",
+            "home": "/assets/img/devDesign/TeKiToa/TeKiToa_Home.webp",
+            "about": "/assets/img/devDesign/TeKiToa/TeKiToa_About.webp",
+            "streamers": "/assets/img/devDesign/TeKiToa/TeKiToa_Streamers.webm",
+            "streamers2": "/assets/img/devDesign/TeKiToa/TeKiToa_Streamers.mp4",
+            "schedule": "/assets/img/devDesign/TeKiToa/TeKiToa_Schedule.webm",
+            "schedule2": "/assets/img/devDesign/TeKiToa/TeKiToa_Schedule.mp4"
+        },
+        {
+            "nameProject": "Kasa",
+            "home": "/assets/img/devDesign/Kasa/Kasa_Home.webp",
+            "article": "/assets/img/devDesign/Kasa/Kasa_Article.webp",
+            "about": "/assets/img/devDesign/Kasa/Kasa_About.webp"
+        },
+        {
+            "nameProject": "Kanap",
+            "home": "/assets/img/devDesign/Kanap/Kanap_Home.webp",
+            "article": "/assets/img/devDesign/Kanap/Kanap_Article.webp",
+            "cart": "/assets/img/devDesign/Kanap/Kanap_Cart.webp"
+        },
+        {
+            "nameProject": "La Panthère",
+            "home": "/assets/img/devDesign/LaPanthere/LaPanthere_Home.webp",
+            "contact": "/assets/img/devDesign/LaPanthere/LaPanthere_Contact.webp"
+        },
+        {
+            "nameProject": "OhMyFood",
+            "home": "/assets/img/devDesign/OhMyFood/OhMyFood_Home.webp",
+            "menu": "/assets/img/devDesign/OhMyFood/OhMyFood_Menu.webp"
+        },
+        {
+            "nameProject": "Booki",
+            "home": "/assets/img/devDesign/Booki/Booki_Home.webp"
+        }
+    ],
+    "digital": [
+        {
+            "titleArtwork": "Stairs At Night",
+            "description": "Illustration, personal project",
+            "date": "June, 2021",
+            "img": "assets/img/digitalArt/Stairs_at_night.webp",
+            "alt": "Illustration Stairs at night, by Ziiemli. Environment with stairs",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Mystical Spring",
+            "description": "Illustration, personal project",
+            "date": "July 2023",
+            "img": "assets/img/digitalArt/Purple_Landscape.webp",
+            "alt": "Illustration Purple Landscape, by Ziiemli. A sort of cave, with gems and plants with a water feature.",
+            "className": "purpleLandscape"
+        },
+        {
+            "titleArtwork": "Waterfall",
+            "description": "Illustration, personal project",
+            "date": "September, 2021",
+            "img": "assets/img/digitalArt/Waterfall.webp",
+            "alt": "Illustration Waterfall, by Ziiemli. Cascade entourée de rochers et de végétations.",
+            "className": "waterfall"
+        },
+        {
+            "titleArtwork": "Sea",
+            "description": "Illustration, personal project",
+            "date": "June, 2022",
+            "img": "assets/img/digitalArt/Sea.webp",
+            "alt": "Illustration Sea, by Ziiemli. ",
+            "className": "sea"
+        },
+        {
+            "digitalConcepts": [
+                {
+                    "titleArtwork": "Environment Researches",
+                    "description": "Concept Art, board of Environment Researches",
+                    "date": "March, 2022",
+                    "img": "assets/img/digitalArt/EnvironmentResearches.webp",
+                    "alt": "Concept art, by Ziiemli. Environment researches.",
+                    "className": "environmentResearches"
+                },
+                {
+                    "titleArtwork": "Pharmaceuticul Building",
+                    "description": "Concept Art of pharmaceutical building, Sci-fi thematic",
+                    "date": "October, 2021",
+                    "img": "assets/img/digitalArt/PharmaceuticalBuilding.webp",
+                    "alt": "Concept art, by Ziiemli. Pharmaceutical Building with gray shades.",
+                    "className": "pharmaceuticalBuilding"
+                },
+                {
+                    "titleArtwork": "Micro-World",
+                    "description": "Concept Art for a school assignment. Create a micro-world with a treehouse and integrate a bus. Two versions: colorful and Halloween.",
+                    "date": "November, 2021",
+                    "img": "assets/img/digitalArt/MicroWorld.webp",
+                    "alt": "Concept art, by Ziiemli. Micro-world concept, with threehouse and a bus. Two versions: colorful and Halloween.",
+                    "className": "microWorld"
+                },
+                {
+                    "titleArtwork": "Mirror Evolution",
+                    "description": "Concept Art for a school assignment. Create the evolution of a mirror.",
+                    "date": "November, 2021",
+                    "img": "assets/img/digitalArt/MirrorEvolution.webp",
+                    "alt": "Concept art, by Ziiemli. Creation of an evolution of a mirror in three steps with a holographic hand coming out of the mirrors.",
+                    "className": "mirrorEvolution"
+                }
+            ]
+        },
+        {
+            "titleArtwork": "SF Tower",
+            "description": "Concept art, personal project",
+            "date": "August, 2021",
+            "img": "assets/img/digitalArt/SF_Tower.webp",
+            "alt": "Concept art, by Ziiemli. SF Tower.",
+            "className": "sfTower"
+        },
+        {
+            "titleArtwork": "Chibi",
+            "description": "Chibi, personal project",
+            "date": "August, 2022",
+            "img": "assets/img/digitalArt/Chibi.webp",
+            "alt": "Man chibi, with glasses and long coat, by Ziiemli",
+            "className": "chibi"
+        },
+        {
+            "titleArtwork": "Fragment of Time",
+            "description": "Book cover, young adult, personal project",
+            "date": "January, 2022",
+            "img": "assets/img/digitalArt/Fragment_of_Time.webp",
+            "alt": "Book cover, by Ziiemli. Main color is blue, and there is a girl sit on stairs in shadow, she's reading a book",
+            "className": "fragmentOfTime"
+        },
+        {
+            "titleArtwork": "The hands of darkness",
+            "description": " I realized this illustration for an exhibition inspired by the world of Hans Ruedi Giger.",
+            "date": "December, 2021",
+            "img": "assets/img/digitalArt/Hands_of_Darkness.webp",
+            "alt": "Illustration inspired by Giger. Two hands, with mechanic elements and some references to giger artworks.",
+            "className": "handsOfDarkness"
+        },
+        {
+            "digitalPortraits": [
+                {
+                    "titleArtwork": "Jonathan Bertin portrait",
+                    "description": "Jonathan Bertin portrait",
+                    "date": "January, 2021",
+                    "img": "assets/img/digitalArt/Jonathan_Bertin.webp",
+                    "alt": "Jonathan Bertin Portrait",
+                    "className": "jonathanBertin"
+                },
+                {
+                    "titleArtwork": "Nuit Incolore portrait",
+                    "description": "Nuit Incolore portrait",
+                    "date": "September, 2022",
+                    "img": "assets/img/digitalArt/Nuit_Incolore.webp",
+                    "alt": "Nuit Incolore portrait",
+                    "className": "nuitIncolore"
+                },
+                {
+                    "titleArtwork": "Chara Concept",
+                    "description": "Character conception",
+                    "date": "December, 2022",
+                    "img": "assets/img/digitalArt/Chara.webp",
+                    "alt": "Girl with long black hair and buns. She wears a kind of crop-top and a jogging suit.",
+                    "className": "chara"
+                },
+                {
+                    "titleArtwork": "Model Vtuber",
+                    "description": "Model Vtuber and animations tracking",
+                    "date": "June, 2022",
+                    "img": "assets/img/digitalArt/Model_Vtuber.webp",
+                    "alt": "Vtuber of Ziiemli. Girl with long white hairs and tow buns.",
+                    "className": "modelVtuber"
+                }
+            ]
+        },
+        {
+            "titleArtwork": "AlienZone Map",
+            "img": "/assets/img/others/AlienZone/AlienZone_Map_Daylight.webp",
+            "alt": "Map Illustration created for AlienZone.",
+            "className": "alienMap"
+        }
+    ],
+    "traditional": [
+        {
+            "titleArtwork": "House Sketch",
+            "description": "Line on sketchbook",
+            "date": "April, 2021",
+            "img": "assets/img/traditionalArt/House_Sketch.webp",
+            "alt": "sketch of a house on sketchbook",
+            "className": "houseSketch"
+        },
+        {
+            "titleArtwork": "Skull",
+            "description": "China Ink, Art, technique and civilization highschool sketchbook",
+            "date": "September, 2018",
+            "img": "assets/img/traditionalArt/Skull.webp",
+            "alt": "skull on sketchook, India Ink",
+            "className": "skull"
+        },
+        {
+            "titleArtwork": "Oil Hand",
+            "description": "Oil painting, 50x50 cm, hand thematic",
+            "date": "August, 2020",
+            "img": "assets/img/traditionalArt/Oil_Hand.webp",
+            "alt": "Oil painting, by Ziiemli. Hand on the middle with white lines and around there are some eyes.",
+            "className": "oilHand"
+        },
+        {
+            "titleArtwork": "Spirit",
+            "description": "Oil painting, based on feeling",
+            "date": "June, 2022",
+            "img": "assets/img/traditionalArt/Spirit.webp",
+            "alt": "Oil painting",
+            "className": "spirit"
+        },
+        {
+            "titleArtwork": "Acrylic Hand",
+            "description": "Oil painting, 50x50 cm, hand thematic",
+            "date": "April, 2020",
+            "img": "assets/img/traditionalArt/Acrylic_Hand.webp",
+            "alt": "Acrylic painting with a hand on the middle.",
+            "className": "acrylicHand"
+        },
+        {
+            "traditionalPaintings": [
+                {
+                    "titleArtwork": "Nature",
+                    "description": "Oil painting, 61x50 cm",
+                    "date": "April, 2021",
+                    "img": "assets/img/traditionalArt/Nature.webp",
+                    "alt": "Oil painting of landscape with threes and blue, yellow sky",
+                    "className": "nature"
+                },
+                {
+                    "titleArtwork": "Purple Sky",
+                    "description": "First oil painting, 46x38 cm",
+                    "date": "July, 2020",
+                    "img": "assets/img/traditionalArt/Purple_Sky.webp",
+                    "alt": "Oil painting with blue and purple sky.",
+                    "className": "purpleSky"
+                },
+                {
+                    "titleArtwork": "Water scene",
+                    "description": "Oil painting, water thematic, 32x24 cm",
+                    "date": "August, 2022",
+                    "img": "assets/img/traditionalArt/Water_Scene.webp",
+                    "alt": "Oil painting with some rocks.",
+                    "className": "waterScene"
+                }
+            ]
+        },
+        {
+            "titleArtwork": "Teddy",
+            "description": "white pen on black paper, observation drawing",
+            "date": "November, 2019",
+            "img": "assets/img/traditionalArt/Teddy.webp",
+            "alt": "Teddy bear draw on black paper with white pen.",
+            "className": "teddy"
+        },
+        {
+            "titleArtwork": "Toas",
+            "description": "toas school project, decorate a block of wood",
+            "date": "January, 2019",
+            "img": "assets/img/traditionalArt/Toas.webp",
+            "alt": "Toas, decoration of a block of wood with acrylic. There are a lot of hands.",
+            "className": "toas"
+        },
+        {
+            "traditionalPyrography": [
+                {
+                    "titleArtwork": "Pyrography",
+                    "description": "First pyrography",
+                    "date": "April, 2020",
+                    "img": "assets/img/traditionalArt/Pyrography_01.webp",
+                    "alt": "Pyrography of a Chinese door",
+                    "className": "pyrography01"
+                },
+                {
+                    "titleArtwork": "Japanese Temple Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_02.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography02"
+                },
+                {
+                    "titleArtwork": "Japanese Temple Pyrography",
+                    "description": "pyrography on wood and oil painting",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_02_1.webp",
+                    "alt": "Pyrography of a Japanese temple and oil painting",
+                    "className": "pyrography02"
+                },
+                {
+                    "titleArtwork": "Kanda Myojin Hall Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_03.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography03"
+                },
+                {
+                    "titleArtwork": "Zojoji Temple Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_04.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography04"
+                },
+                {
+                    "titleArtwork": "Hands Pyrography",
+                    "description": "pyrography on wood, hands thematic",
+                    "date": "June, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_05.webp",
+                    "alt": "Pyrography of two hands.",
+                    "className": "pyrography05"
+                },
+                {
+                    "titleArtwork": "Japanese Temple Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_06.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography06"
+                },
+                {
+                    "titleArtwork": "Kumano Shrine Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "November, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_07.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography07"
+                },
+                {
+                    "titleArtwork": "Daikokutendo Shrine Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "November, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_08.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography08"
+                },
+                {
+                    "titleArtwork": "Chibi",
+                    "description": "pyrography on wood",
+                    "date": "March, 2023",
+                    "img": "assets/img/traditionalArt/Pyrography_09.webp",
+                    "alt": "Pyrography of a cute chibi",
+                    "className": "pyrography09"
+                },
+                {
+                    "titleArtwork": "Temple of Heaven Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "March, 2023",
+                    "img": "assets/img/traditionalArt/Pyrography_10.webp",
+                    "alt": "Temple of Heaven pyrography",
+                    "className": "pyrography10"
+                }
+            ]
+        }
+    ],
+    "others": [
+        {
+            "id": "02_00",
+            "nameProject": "AlienZone",
+            "imageDesktop": "/assets/img/others/AlienZone/AlienZone_Desktop.webp",
+            "imageMobile": "/assets/img/others/AlienZone/AlienZone_Mobile.webp",
+            "description": "AlienZone is a customer project. I realized a large map illustration for their website.",
+            "date": "November, 2023",
+            "techs": "Photoshop, Maya, Unity",
+            "roles": "Concept Artist, Illutrator",
+            "backgroundDesktop": "/assets/img/others/AlienZone/AlienZone_BackgroundDesktop.webp"
+        },
+        {
+            "id": "02_01",
+            "nameProject": "Le Recueil de l'étrange",
+            "imageDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Desktop.webp",
+            "imageMobile": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Mobile.webp",
+            "description": "Le recueil de l'étrange is a Video Game Project in school realized with Team Mates, it's an Adventure/Puzzle Game Directives.",
+            "date": "April, 2022",
+            "techs": "Photoshop, Maya, Unreal Engine",
+            "roles": "Concept Artist, UI/UX Designer, Texture Artist",
+            "backgroundDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_BackgroundDesktop.webp"
+        },
+        {
+            "id": "02_02",
+            "nameProject": "Le trésor de Khnoumkhoufou",
+            "imageDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Desktop.webp",
+            "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.webp",
+            "description": "Le trésor de Khnoumkhoufou is a board game project, school assignment with team mates: Alan Albiach, Anthony C.",
+            "date": "October, 2021",
+            "techs": "Photoshop, InDesign",
+            "roles": "Illustrator, UI/UX Designer",
+            "backgroundDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_BackgroundDesktop.webp"
+        },
+        {
+            "id": "02_02",
+            "nameProject": "Sirius",
+            "imageDesktop": "/assets/img/others/Sirius/Sirius_Desktop.webp",
+            "imageMobile": "/assets/img/others/Sirius/Sirius_Mobile.webp",
+            "description": "Sirius is a Video Game Project (vertical slice) in school realized with Team Mates, it's an Action-Adventure. Art Team mates: Alan Albiach, Anthony C, Alexandre Michel, Maxime Laurent.",
+            "date": "June, 2022",
+            "techs": "Photoshop, Unreal Engine",
+            "roles": "Lead Artist, Concept Artist, Level Art",
+            "backgroundDesktop": "/assets/img/others/Sirius/Sirius_BackgroundDesktop.webp"
+        },
+        {
+            "id": "02_03",
+            "nameProject": "Photography",
+            "imageDesktop": "/assets/img/others/Photography/Lyon_Desktop.webp",
+            "imageMobile": "/assets/img/others/Photography/Lyon_Mobile.webp",
+            "description": "Life moments through my lens.",
+            "date": "2021 - 2023",
+            "techs": "Sony A6400, Iphone 6s, Iphone 12 pro",
+            "roles": "Photographer",
+            "backgroundDesktop": "/assets/img/others/Photography/Lyon_BackgroundDesktop.webp"
+        },
+        {
+            "id": "02_04",
+            "nameProject": "Bleu",
+            "imageDesktop": "/assets/img/others/Bleu/Bleu_Desktop.webp",
+            "imageMobile": "/assets/img/others/Bleu/Bleu_Mobile.webp",
+            "description": "Some experiments around Blue Thematic. HighSchool Assignment",
+            "date": "September, 2022",
+            "techs": "Sony RX100",
+            "roles": "Artist",
+            "backgroundDesktop": "/assets/img/others/Bleu/Bleu_BackgroundDesktop.webp"
+        }
+    ],
+    "othersProjects": [
+        {
+            "nameProject": "AlienZone",
+            "dayNight": [
+                {
+                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Daylight.webp",
+                    "description": "Daylight Map illustration AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Night.webp",
+                    "description": "Night Map illustration AlienZone"
+                }
+            ],
+            "conceptArt": [
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Octopus_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v2.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino2_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Stadium_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Yacht_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v3.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v2.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v1.webp",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v2.webp",
+                    "description": "Concept Art building AlienZone"
+                }
+            ],
+            "D": [
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Dojo.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Stadium.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_PurpleGuy.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Octopus.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Yacht.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_HallofFame.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino1.webp",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino2.webp",
+                    "description": "3D building AlienZone"
+                }
+            ],
+            "LineBuilding": [
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/HallofFame.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Octopus.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/PurpleGuy.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Dojo.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino1.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino2.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Stadium.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Statues.webp",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Yacht.webp",
+                    "description": "Line Art building AlienZone"
+                }
+            ],
+            "evolution": [
+                {
+                    "screen": "/assets/img/others/AlienZone/AlienZone.gif",
+                    "description": "Evolution of the map"
+                }
+            ]
+        },
+        {
+            "nameProject": "Le Recueil de l'étrange",
+            "visualsOfGame": [
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.webp",
+                    "description": "3D interior of a video game"
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.webp",
+                    "description": "3D interior of a video game"
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_03.webp",
+                    "description": "3D interior of a video game"
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_04.webp",
+                    "description": "3D interior of a video game"
+                }
+            ],
+            "conceptArt": [
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.webp",
+                    "description": "Concept art board of a bathroom"
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.webp",
+                    "description": "Concept art board of a mirror"
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_03.webp",
+                    "description": "Concept art, game atmosphere"
+                }
+            ],
+            "uiUx": [
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.webp",
+                    "description": "UI & UX of Le Recueil de l'étrange video game."
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.webp",
+                    "description": "UI & UX of Le Recueil de l'étrange video game."
+                },
+                {
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.webp",
+                    "description": "UI & UX of Le Recueil de l'étrange video game."
+                }
+            ]
+        },
+        {
+            "nameProject": "Le trésor de Khnoumkhoufou",
+            "boxBoardGame": [
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Box.webp",
+                    "description": "Le trésor de Khnoumkhoufou game box."
+                }
+            ],
+            "boardGame": [
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.webp",
+                    "description": "Board game of Le Trésor de Khnoumkhoufou. The board and the squares are square. the starting square takes the whole length of one side of the board."
+                },
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_02.webp",
+                    "description": "Game pieces and about the game."
+                }
+            ],
+            "momieCharacter": [
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie.webp",
+                    "description": "Momie character of the board game."
+                }
+            ],
+            "adventurerCharacters": [
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Characters.webp",
+                    "description": "Adventurer characters of the board game."
+                }
+            ],
+            "momieCards": [
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie_cards.webp",
+                    "description": "Momie game cards"
+                }
+            ],
+            "adventurerCards": [
+                {
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Adventurer_cards.webp",
+                    "description": "Adventurers game cards"
+                }
+            ]
+        },
+        {
+            "nameProject": "Sirius",
+            "visualsOfGame": [
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_01.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_02.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_03.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_04.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_05.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_06.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_07.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_08.webp",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_09.webp",
+                    "description": "visual of Sirius video game"
+                }
+            ],
+            "conceptArt": [
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_01.webp",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_02.webp",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_03.webp",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_04.webp",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_05.webp",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_06.webp",
+                    "description": "Concept art of Sirius video game"
+                }
+            ],
+            "video": {
+                "mp4": "/assets/img/others/Sirius/Sirius.mp4",
+                "webm": "/assets/img/others/Sirius/Sirius.webm"
+            }
+        },
+        {
+            "nameProject": "Bleu",
+            "experiments": [
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_hands.webp",
+                    "description": "Blue hands."
+                },
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_Palette.webp",
+                    "description": "Blue blend."
+                },
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_lightBall.webp",
+                    "description": "Light blue ball."
+                },
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_DarkBlueBall.webp",
+                    "description": "Black and blue balls."
+                }
+            ]
+        },
+        {
+            "nameProject": "Photography",
+            "photos": [
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/01_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/02_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/03_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/04_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/05_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/06_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/07_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/08_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/09_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/10_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/12_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/13_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/14_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/15_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/16_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/17_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/18_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/19_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/20_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/21_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/22_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/23_Lyon_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Les grottes de la Balme",
+                    "src": "/assets/img/others/Photography/photos/24_Balme_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Pics in Isère, France"
+                },
+                {
+                    "serie":"Les grottes de la Balme",
+                    "src": "/assets/img/others/Photography/photos/26_Balme_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Pics in Isère, France"
+                },
+                {
+                    "serie":"Les grottes de la Balme",
+                    "src": "/assets/img/others/Photography/photos/27_Balme_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Pics in Isère, France"
+                },
+                {
+                    "serie":"Les grottes de la Balme",
+                    "src": "/assets/img/others/Photography/photos/28_Balme_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Pics in Isère, France"
+                },
+                {
+                    "serie":"Les grottes de la Balme",
+                    "src": "/assets/img/others/Photography/photos/29_Balme_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Pics in Isère, France"
+                },
+                {
+                    "serie":"Les grottes de la Balme",
+                    "src": "/assets/img/others/Photography/photos/30_Balme_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Pics in Isère, France"
+                },
+                {
+                    "serie":"Confluence",
+                    "src": "/assets/img/others/Photography/photos/37_Lyon_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Confluence Time, France"
+                },
+                {
+                    "serie":"Confluence",
+                    "src": "/assets/img/others/Photography/photos/38_Lyon_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Confluence Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/39_Lyon_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/40_Lyon_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/41_Lyon_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/42_Lyon_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Forest",
+                    "src": "/assets/img/others/Photography/photos/43_Forest_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Forest Photography, France"
+                },
+                {
+                    "serie":"Forest",
+                    "src": "/assets/img/others/Photography/photos/44_Forest_08_2021.webp",
+                    "date": "August, 2021",
+                    "description": "Forest Photography, France"
+                },
+                {
+                    "serie":"Moment",
+                    "src": "/assets/img/others/Photography/photos/45_Moment_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Moment Photography, Lyon"
+                },
+                {
+                    "serie":"Moment",
+                    "src": "/assets/img/others/Photography/photos/46_Moment_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Moment Photography, Lyon"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/47_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/48_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/49_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/50_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/51_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/52_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/53_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/54_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/55_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/56_Annecy_09_2021.webp",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/57_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/58_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/59_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/60_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/61_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/62_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/63_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/64_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/65_Agde_04_2022.webp",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/66_Ravin_05_2022.webp",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/67_Ravin_05_2022.webp",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/68_Ravin_05_2022.webp",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.webp",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.webp",
+                    "date": "Mai, 2022",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/70_Agde_09_2023.webp",
+                    "date": "September, 2023",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/71_Agde_09_2023.webp",
+                    "date": "September, 2023",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/72_Agde_09_2023.webp",
+                    "date": "September, 2023",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Friend Portrait",
+                    "src": "/assets/img/others/Photography/photos/73_Patricia_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Friend photography"
+                },
+                {
+                    "serie":"Friend Portrait",
+                    "src": "/assets/img/others/Photography/photos/74_Patricia_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Friend photography"
+                },
+                {
+                    "serie":"Friend Portrait",
+                    "src": "/assets/img/others/Photography/photos/75_Patricia_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Friend photography"
+                },
+                {
+                    "serie":"Lyon Moment",
+                    "src": "/assets/img/others/Photography/photos/76_Lyon_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Lyon photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/77_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/78_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/79_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/80_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/81_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/82_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/83_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/84_Perouges_10_2023.webp",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                }
+            ]
+        }
+    ],
+    "about": [
+        {
+            "career": [
+                {
+                    "id": "03_01",
+                    "training": "Bac+2, Web Development",
+                    "years": "2020 - 2022",
+                    "description": ["- 6 projects completed", "- HTML, CSS, Sass, Javascript, React", "- Web integration, CSS Animations, API Management, SEO Referencing"]
+                },
+                {
+                    "id": "03_02",
+                    "training": "Bachelor’s degree, Game Art",
+                    "years": "2020 - 2022",
+                    "description": [
+                        "- Disciplines: UI/UX, Concept Art, Digital Painting, 3D Modeling, Texturing, Lighting, Fx, Composition, Use of game engines",
+                        "- Group Projects: Card Game, Board Game, Shoot 'em up, Dungeon Crawler, Tower Defense, Adventure/Puzzle Game"
+                    ]
+                },
+                {
+                    "id": "03_03",
+                    "training": "Baccaulaureat, STD2A",
+                    "years": "2017 - 2020",
+                    "description": [
+                        "- Disciplines: Design and Applied Arts, Art History, DTP (Desktop Publishing), Design and Arts in English",
+                        "- Creative approach projects, plastic and technological practices"
+                    ]
+                }
+            ]
+        },
+        {
+            "dev": ["Web Design", "UI & UX", "Web Integration", "API Management", "Animation CSS", "Website Maintenance", "SEO Referencing"],
+            "stacks": [
+                {
+                    "stackName": "HTML",
+                    "stackLogo": "/assets/html.svg"
+                },
+                {
+                    "stackName": "CSS",
+                    "stackLogo": "/assets/css.svg"
+                },
+                {
+                    "stackName": "Sass",
+                    "stackLogo": "/assets/sass.svg"
+                },
+                {
+                    "stackName": "JavaScript",
+                    "stackLogo": "/assets/javascript.svg"
+                },
+                {
+                    "stackName": "React",
+                    "stackLogo": "/assets/react.svg"
+                }
+            ]
+        },
+        {
+            "art": ["Traditional Painting (oil, acrylic, watercolor)", "Digital Painting", "Line", "Pyrography", "Graphism & Design", "UI & UX"],
+            "softwares": [
+                {
+                    "softwareName": "Photoshop",
+                    "softwareLogo": "/assets/photoshop.svg"
+                },
+                {
+                    "softwareName": "InDesign",
+                    "softwareLogo": "/assets/inDesign.svg"
+                },
+                {
+                    "softwareName": "Illustrator",
+                    "softwareLogo": "/assets/illustrator.svg"
+                },
+                {
+                    "softwareName": "Figma",
+                    "softwareLogo": "/assets/figma.svg"
+                },
+                {
+                    "softwareName": "Maya",
+                    "softwareLogo": "/assets/maya.svg"
+                }
+            ]
+        }
+    ]
+}
